@@ -26,6 +26,7 @@ transaction_fraud_detection_with_gnns_tabnet/
 |        ├── main.py            
 ├── README.md
 └── requirements.txt
+└── app.py # Used for website
 ```
 
 ## Setup
@@ -68,6 +69,19 @@ cd src/cis_gnn
 python process_data.py
 python train.py
 ```
+### Capital One Dataset
+
+```bash
+cd src/tabnet
+python main.py
+```
+
+### Website
+
+```bash
+python app.py
+```
+This works on port 5000
 
 ## Models
 
